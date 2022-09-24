@@ -1,0 +1,79 @@
+body{
+    font-family: "Roboto" ,sans-serif;
+}
+.g {
+    color: gray;
+    font-weight: 400;
+}
+span{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: aqua;
+}
+.rw
+{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    font-weight: 700;
+}
+footer{
+    font-weight: 400;
+}
+header{
+    font-weight: 500;
+}
+button{
+    font-weight: 500;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+     
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerb{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+     outline: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionh{
+  
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+*::after,
+*::before{
+
+    box-sizing: border-box;
+}
+
+
+.pbl{
+    
+    display: flex ;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pb:not(:first-child){
+    margin-left: 8px;
+}
+
