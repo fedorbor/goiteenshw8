@@ -2,7 +2,7 @@ body{
     font-family: "Roboto" ,sans-serif;
 }
 .g {
-    color: gray;
+    color: lightslategray;
     font-weight: 400;
 }
 span{
@@ -32,7 +32,7 @@ button{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-     
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,7 +40,7 @@ button{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-     outline: 1px solid red;
+     /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,6 +50,7 @@ button{
 .header{
     padding-top: 24px;
     padding-bottom: 25px;
+    display: flex;
 }
 .footer{
     padding-top: 60px;
@@ -71,9 +72,74 @@ ul{
     display: flex ;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+    margin-bottom: 50px
     
 }
 .pb:not(:first-child){
     margin-left: 8px;
 }
+.ex{
+    display: flex;
+    flex-wrap: wrap;
+     margin: -15px;
+     justify-content: center;
+   
+}
+.exl{
+   
+    margin: 15px;
+    width: calc((100% - 30px * 3) / 3);
+    justify-content: center;
+}
+.pb{
+    border: none;
 
+
+
+border-radius: 4px;
+
+padding: 6px 26px;
+
+font-weight: 500;
+
+
+
+font-size: 16px;
+
+Line-height: 26px;
+
+
+text-align: center; Letter-spacing: 0.03em;
+
+background-color: #f5f4fa;
+}
+.pb:hover,
+.pb:focus{
+    background-color: rgb(72, 118, 245);
+    color: #f5f4fa;
+    
+    box-shadow: 0px 2px 2px 0px #0000001F;
+
+box-shadow: 0px 1px 2px 0px #00000014;
+
+box-shadow: 0px 3px 1px 0px #0000001A;
+
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+}
+.spech{
+justify-content: center;
+}
+.specit{
+    width: 270px
+}
+.wwd{
+    display: flex;
+}
+.wwdi{
+    
+
+}
