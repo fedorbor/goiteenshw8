@@ -140,6 +140,14 @@ justify-content: center;
     display: flex;
 }
 .wwdi{
-    
+    padding-left: 15px;
 
+}
+.oc{
+    display: flex;
+}
+.oci{
+    
+    padding: 15px;
+    
 }
